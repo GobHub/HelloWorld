@@ -1,9 +1,191 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T07:06:21.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.0.0" version="21.3.2" etag="ue9hVNpsWCu_ClEGdONT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T08:00:22.093Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.0.0" etag="E1C-pZVsm0KLICUS67sY" version="21.3.2" type="github">
   <diagram name="第 1 页" id="PudvpUQUDf-wmonyRrHr">
-    <mxGraphModel>
+    <mxGraphModel dx="1422" dy="745" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-65" value="" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="362.5" y="270" width="580" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-19" value="nginx" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="290" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-20" value="请求鉴权，黑白名单过滤，异常拦截，用户信息封装传递" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="275" width="110" height="365" as="geometry" />
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-21" value="nacos服务注册与发现，动态配置" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="110" width="600" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="r5nPjQlLq0CE2wQWWLVe-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="280" as="sourcePoint" />
+            <mxPoint x="230" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="服务注册" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-23">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="170" y="190" width="60" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="获取服务列表" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-24">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="210" y="230" width="90" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-27" value="查询报名用户信息，录取，拒绝，拉黑，等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="340" width="120" height="110" as="geometry" />
+        </mxCell>
+        <UserObject label="服务集群" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-28">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="590" y="280" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-30" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.374;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r5nPjQlLq0CE2wQWWLVe-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="470" y="275" as="sourcePoint" />
+            <mxPoint x="520" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="服务注册" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-31">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="420" y="190" width="60" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="获取服务列表" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-32">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="480" y="210" width="90" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.673;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.614;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="r5nPjQlLq0CE2wQWWLVe-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="310" as="sourcePoint" />
+            <mxPoint x="690.95" y="276.2750000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="获取配置信息" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-34">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="700" y="200" width="90" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-35" value="查询岗位列表信息，报名，拉黑，等等" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="707" y="340" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-36" value="用户管理，活跃度统计，用户数统计，等，" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="530" width="365" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-38" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.161;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r5nPjQlLq0CE2wQWWLVe-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="358" as="sourcePoint" />
+            <mxPoint x="680" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="590" y="358" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Feign调用" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-39">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="600" y="320" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="460" as="sourcePoint" />
+            <mxPoint x="490" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Feign调用" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-43">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="400" y="470" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-44" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="820" y="450" as="sourcePoint" />
+            <mxPoint x="810" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Feign调用" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-45">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="810" y="470" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="企业审核，发布岗位审核" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-46">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="480" y="490" width="90" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="管理后台" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-66">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="400" y="575" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="C端服务" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-67">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="827" y="385" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="B端服务" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-68">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="400" y="385" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="gateway" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-69">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="155" y="330" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-70" value="redis" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="720" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-71" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.034;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r5nPjQlLq0CE2wQWWLVe-70" target="r5nPjQlLq0CE2wQWWLVe-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="710" as="sourcePoint" />
+            <mxPoint x="300" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="保存，获取token" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-72">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="170" y="670" width="90" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-73" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=0.514;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="r5nPjQlLq0CE2wQWWLVe-70">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="604.5" y="720" as="sourcePoint" />
+            <mxPoint x="555.5" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="活跃度统计，缓存数据，投递岗位次数" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-74">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="435" y="660" width="290" height="50" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-75" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.015;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r5nPjQlLq0CE2wQWWLVe-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="310" as="sourcePoint" />
+            <mxPoint x="130" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r5nPjQlLq0CE2wQWWLVe-76" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.435;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="r5nPjQlLq0CE2wQWWLVe-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="430" as="sourcePoint" />
+            <mxPoint x="300" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Ribbon" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-77">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="260" y="400" width="90" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="请求转发，负载均衡" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-78">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="260" y="350" width="90" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="API网关统计认证" placeholders="1" name="Variable" id="r5nPjQlLq0CE2wQWWLVe-80">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="235" y="265" width="90" height="35" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
