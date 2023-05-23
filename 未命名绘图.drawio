@@ -1,9 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2023-05-23T06:45:49.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.0.0" version="21.3.2" etag="uHqeapEfgZ_lEBXXDrWF" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-23T07:04:38.070Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.0.0" etag="VPRMQpt6U2Vw-_Vu080k" version="21.3.2" type="github">
   <diagram name="第 1 页" id="j9OVH7OvALmkVYJ9ZPKT">
-    <mxGraphModel>
+    <mxGraphModel dx="981" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="120" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-3" value="服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="268" y="110" width="146" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-5" value="redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="110" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-12" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="39.66" y="560" as="sourcePoint" />
+            <mxPoint x="39.66" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-13" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="649.66" y="560" as="sourcePoint" />
+            <mxPoint x="649.66" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-14" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="338.66" y="565" as="sourcePoint" />
+            <mxPoint x="338.66" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="240" as="sourcePoint" />
+            <mxPoint x="340" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="1：登录请求" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-31">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="100" y="210" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-32" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="390" as="sourcePoint" />
+            <mxPoint x="340" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="2：身份验证" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-33">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="360" y="220" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-34" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="280" as="sourcePoint" />
+            <mxPoint x="340" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="3：生成唯一Token值存入redis" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-35">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="360" y="250" width="260" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-36" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="320" as="sourcePoint" />
+            <mxPoint x="40" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="4：返回token" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-37">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="130" y="290" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="5：访问业务请求，带上token" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-38">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="130" y="360" width="160" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-39" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="450" as="sourcePoint" />
+            <mxPoint x="340" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="6：获取token" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-40">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="440" y="410" width="80" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="7：校验token，处理5的业务逻辑" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-41">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="370" y="460" width="240" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="xSr6yWkQ9lf8vt5m0Eda-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="520" as="sourcePoint" />
+            <mxPoint x="40" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="8：返回业务处理结果" placeholders="1" name="Variable" id="xSr6yWkQ9lf8vt5m0Eda-43">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;" vertex="1" parent="1">
+            <mxGeometry x="80" y="490" width="190" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
       </root>
     </mxGraphModel>
   </diagram>
