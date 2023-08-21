@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T05:41:25.660Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="Vjs3ZXOgB0jA4gqrtdJ2" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T05:44:59.733Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="UwWMyL6TL1E37LLNySQx" version="21.6.5" type="github">
   <diagram name="第 1 页" id="WAWOjBXtoU4HDlSu36xC">
-    <mxGraphModel dx="1774" dy="2154" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2513" dy="2564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,13 +133,13 @@
         <mxCell id="dmL3kQI25uZEhPcs20aE-47" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;负载均衡&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
           <mxGeometry x="740" y="400" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dmL3kQI25uZEhPcs20aE-48" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;http、websocket&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+        <mxCell id="dmL3kQI25uZEhPcs20aE-48" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;https、websocket&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
           <mxGeometry x="460" y="410" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dmL3kQI25uZEhPcs20aE-49" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#515151;shape=mxgraph.mscae.system_center.admin_console;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="330" y="490" width="80" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dmL3kQI25uZEhPcs20aE-50" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;前台Uniapp&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+        <mxCell id="dmL3kQI25uZEhPcs20aE-50" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;客户端U3d&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
           <mxGeometry x="325" y="370" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="dmL3kQI25uZEhPcs20aE-51" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;管理后台vue&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
@@ -294,7 +294,7 @@
         <mxCell id="dmL3kQI25uZEhPcs20aE-115" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Druid Admin&lt;br&gt;数据库连接池&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
           <mxGeometry x="1132.5" y="952.9" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dmL3kQI25uZEhPcs20aE-116" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Skywalking&lt;br&gt;链路追踪&amp;amp;日志&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+        <mxCell id="dmL3kQI25uZEhPcs20aE-116" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Skywalking&lt;br&gt;调用链路&amp;amp;日志&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
           <mxGeometry x="1309.71" y="960" width="150" height="50" as="geometry" />
         </mxCell>
         <mxCell id="dmL3kQI25uZEhPcs20aE-117" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;prometheus&lt;br&gt;系统指标&lt;br&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
@@ -352,7 +352,7 @@
         <mxCell id="dmL3kQI25uZEhPcs20aE-141" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;接入服务&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
           <mxGeometry x="575" y="180" width="135" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="dmL3kQI25uZEhPcs20aE-142" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;前端服务&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
+        <mxCell id="dmL3kQI25uZEhPcs20aE-142" value="&lt;font color=&quot;#cc0000&quot;&gt;&lt;span style=&quot;font-size: 21px;&quot;&gt;客户端服务&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontFamily=Architects Daughter;" parent="1" vertex="1">
           <mxGeometry x="297.5" y="180" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="NEVPJ41FFCdAw5tTFsTg-1" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/bootstrap/16/badge-vr-128.png;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
